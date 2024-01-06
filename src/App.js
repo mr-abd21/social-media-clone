@@ -16,7 +16,7 @@ function App() {
 
 
   //fake functionality to check if user loggrd in or not
-  const currentuser = false;
+  const currentuser = true;
   //maintain layout of home page using react-router-dom outlet
   const Layout=()=>{
     return(
