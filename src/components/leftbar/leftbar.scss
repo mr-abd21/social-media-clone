@@ -1,13 +1,21 @@
 .leftbar{
     // width: 25%;
     flex:2;
+    position: sticky;
+    top: 50px;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
     .container{
         padding: 20px;
-       hr{
-        margin: 20px 0px;
-        border: none;
-        height: 0.5px;
-        background: lightgrey;
+        hr{
+            margin: 20px 0px;
+            border: none;
+            height: 0.5px;
+            background: lightgrey;
        }
         .menu{
             display: flex;
