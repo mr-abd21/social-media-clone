@@ -1,5 +1,6 @@
-import React from "./home.scss";
+import "./home.scss";
 
-export const home = () => {
+const Home = () => {
   return <div className="home">home</div>;
 };
+export default Home;
