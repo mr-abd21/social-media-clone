@@ -30,7 +30,7 @@ const Navbar = () => {
         <NotificationsActiveOutlinedIcon />
         <div className="user">
           <img
-            src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="https://images.pexels.com/photos/1462980/pexels-photo-1462980.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
           />
           <span>Mr Abd</span>
